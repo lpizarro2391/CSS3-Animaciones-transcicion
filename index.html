@@ -5,7 +5,7 @@
     <meta name="viewport" content="widht:device-widht, user-scalable=no">
     <title>Animacion y Propiedades</title>
     <style media="screen">
-    #contendor{
+    #contenedor{
         widht: 1000px;
         height: 600px;
         border: 2px solid;
@@ -13,13 +13,19 @@
         background-color:blue;
         transition:background 1s;
       }
-      #contendor:hover{
-        background-color:yellow;
+      #contenedor img {
+        width: 200px;
+        height: 200px;
+        transition:width, 1s
+      }
+      #contenedor img:hover{
+        width:100%
       }
     </style>
   </head>
   <body>
-<section id="contendor">
+<section id="contenedor">
+  <img src="img/FB_IMG_1541032158523.jpg" alt="imagen de lapiz"/>
 
 </section>
   </body>
